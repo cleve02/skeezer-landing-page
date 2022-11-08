@@ -1,0 +1,14 @@
+.enroll-button2 a {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #31dc89;
+  display: inline-block;
+  font-weight: 600;
+  height: 50px;
+  padding-top: 13px;
+  text-align: center;
+  width: 250px;
+}
+.enroll-button2 a:hover {
+  background: #171932 none repeat scroll 0 0;
+}

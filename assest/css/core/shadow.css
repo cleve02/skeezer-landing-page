@@ -1,0 +1,19 @@
+.shadow {
+  -webkit-box-shadow: 0 0 3px #ddd;
+  box-shadow: 0 0 3px #ddd;
+}
+.shadow10 {
+  -webkit-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 3px #ddd;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.shadow:hover,
+.shadow10:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.no-shadow {
+  -webkit-box-shadow: 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent;
+}

@@ -1,0 +1,35 @@
+.area-title {
+  margin-bottom: 80px;
+  position: relative;
+}
+.area-title h2 {
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.area-title h2 span {
+  color: #8256ff;
+}
+@media only screen and (max-width: 767px) {
+  .area-title {
+    margin-bottom: 50px;
+  }
+  .area-title h2 {
+    font-size: 22px;
+  }
+  .download-area .area-title h2 {
+    font-size: 22px;
+  }
+  .accordion-toggle .fa-angle-down {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .area-title h2 {
+    font-size: 32px;
+  }
+  .download-area .area-title h2 {
+    font-size: 32px;
+  }
+}
